@@ -1,0 +1,20 @@
+2020-11-20 15:06:39,282 - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-11-20 15:06:39,382 - Finished Spring Data repository scanning in 83ms. Found 1 JPA repository interfaces.
+2020-11-20 15:06:40,352 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-20 15:06:40,482 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-11-20 15:06:40,656 - HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-11-20 15:06:40,944 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-11-20 15:06:41,165 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-11-20 15:06:41,873 - HikariPool-1 - Starting...
+2020-11-20 15:06:42,715 - Triggering deferred initialization of Spring Data repositories…
+2020-11-20 15:06:43,159 - HikariPool-1 - Start completed.
+2020-11-20 15:06:43,228 - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-11-20 15:06:44,486 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-11-20 15:06:44,500 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-11-20 15:06:45,090 - Spring Data repositories initialized!
+2020-11-20 15:06:45,228 - 这是slf4j下error级别日志
+2020-11-20 15:06:45,228 - 用户名：admin，密码：123455
+2020-11-20 15:06:45,244 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-11-20 15:06:45,247 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-20 15:06:45,247 - HikariPool-1 - Shutdown initiated...
+2020-11-20 15:06:45,257 - HikariPool-1 - Shutdown completed.
